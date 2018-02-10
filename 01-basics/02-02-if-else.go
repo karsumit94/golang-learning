@@ -29,6 +29,7 @@ func main() {
 	if food := "Chocolate"; b {
 		fmt.Println(food)
 	}
+	//fmt.Println(food)
 	fmt.Println()
 	fmt.Println()
 

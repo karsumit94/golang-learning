@@ -27,3 +27,6 @@ func main() {
 // simplify definitions of incrementing numbers. Because 
 // it can be used in expressions, it provides a generality 
 // beyond that of simple enumerations.
+// Iota: http://golang.org/doc/go_spec.html#Iota
+
+// Constant declarations: http://golang.org/doc/go_spec.html#Constant_declarations

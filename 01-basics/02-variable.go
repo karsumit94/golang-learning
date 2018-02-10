@@ -28,6 +28,8 @@ func main() {
 	//declaring and initializing variable of differet types
 	var r,s,t = 2,true,"PacketSmart"
 
+	const u = 49
+
 	fmt.Println("Hello ", name)
 	fmt.Println()
 	fmt.Println()
@@ -59,6 +61,12 @@ func main() {
 	fmt.Printf("%v \t  %T    \n", s,s)
 	fmt.Printf("%v \t  %T    \n", t,t)
 	fmt.Println()
+	fmt.Println()
+
+	fmt.Println("%v \t  %T    \n", u,u)
+	fmt.Println()
+	fmt.Println()
+
     fmt.Println(b, o, p, q)
     
 }

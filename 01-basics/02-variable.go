@@ -29,7 +29,10 @@ func main() {
 	var r,s,t = 2,true,"PacketSmart"
 
 	const u = 49
-
+		const (
+		pi       = 3.14
+		language = "Go"
+	)
 	fmt.Println("Hello ", name)
 	fmt.Println()
 	fmt.Println()
@@ -68,5 +71,10 @@ func main() {
 	fmt.Println()
 
     fmt.Println(b, o, p, q)
+    fmt.Println()
+	fmt.Println()
+	
+    fmt.Println(pi)
+	fmt.Println(language)
     
 }

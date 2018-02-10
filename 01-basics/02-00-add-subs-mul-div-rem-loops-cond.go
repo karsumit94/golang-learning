@@ -21,7 +21,7 @@ func main() {
 	fmt.Printf("%d %% %v = %v \n", b,c,rem)
 	fmt.Println()
 	fmt.Println()
-	
+
 	x := 13 % 3
 	fmt.Println(x)
 	if x == 1 {
@@ -31,6 +31,27 @@ func main() {
 	}
 	fmt.Println()
 	fmt.Println()
+
+	//nested for loop
+	for i := 0; i < 5; i++ {
+		for j := 0; j < 5; j++ {
+			fmt.Println(i, " - ", j)
+		}
+	}
+	fmt.Println()
+	fmt.Println()
+
+	// for while loop
+	i := 0
+	for i < 10 {
+		fmt.Println(i)
+		i++
+	}
+	fmt.Println()
+	fmt.Println()
+
+
+	// for loop with condition 
 	for i := 1; i < 5; i++ {
 		if i%2 == 1 {
 			fmt.Println(i, "is Odd")
@@ -38,4 +59,8 @@ func main() {
 			fmt.Println(i, "is Even")
 		}
 	}
+	fmt.Println()
+	fmt.Println()
+
+	
 }

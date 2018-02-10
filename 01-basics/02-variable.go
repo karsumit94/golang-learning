@@ -60,6 +60,5 @@ func main() {
 	fmt.Printf("%v \t  %T    \n", t,t)
 	fmt.Println()
     fmt.Println(b, o, p, q)
-
-
+    
 }

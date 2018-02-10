@@ -4,14 +4,14 @@ import "fmt"
 import "time"
 
 func main() {
-
+	name := "Sumit"
 	a := 10
 	b := "golang"
 	c := 4.17
 	d := true
-	e := `Hello`
+	e := `Broadsoft`
 	f := 'A'
-	
+
     var g int
 	var h string
 	var i float64
@@ -21,7 +21,12 @@ func main() {
 
 	var m,n int
 	var o,p,q int = 1,2,3
+	var r,s,t = 2,true,"PacketSmart"
 
+	fmt.Println("Hello ", name)
+	fmt.Println()
+	fmt.Println()
+	
 	fmt.Printf("%v \t  %T    \n", a,a)
 	fmt.Printf("%v \t  %T    \n", b,b)
 	fmt.Printf("%v \t  %T    \n", c,c)
@@ -45,8 +50,11 @@ func main() {
 	fmt.Printf("%v \t  %T    \n", o,o)
 	fmt.Printf("%v \t  %T    \n", p,p)
 	fmt.Printf("%v \t  %T    \n", q,q)
+	fmt.Printf("%v \t  %T    \n", r,r)
+	fmt.Printf("%v \t  %T    \n", s,s)
+	fmt.Printf("%v \t  %T    \n", t,t)
 	fmt.Println()
-
+    fmt.Println(b, o, p, q)
 
 
 }

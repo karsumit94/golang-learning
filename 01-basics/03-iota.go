@@ -22,3 +22,8 @@ func main() {
 	fmt.Println(e)
 	fmt.Println(f)
 }
+
+// Go's iota identifier is used in const declarations to 
+// simplify definitions of incrementing numbers. Because 
+// it can be used in expressions, it provides a generality 
+// beyond that of simple enumerations.

@@ -4,6 +4,8 @@ import "fmt"
 import "time"
 
 func main() {
+
+	//shorthand variable declaration 
 	name := "Sumit"
 	a := 10
 	b := "golang"
@@ -11,22 +13,25 @@ func main() {
 	d := true
 	e := `Broadsoft`
 	f := 'A'
-
+    
+    //definng the type 
     var g int
 	var h string
 	var i float64
 	var j bool
 	var k string
 	var l time.Time
-
+	//declaring two variable of same type 
 	var m,n int
+	//initializing multiple variable 
 	var o,p,q int = 1,2,3
+	//declaring and initializing variable of differet types
 	var r,s,t = 2,true,"PacketSmart"
 
 	fmt.Println("Hello ", name)
 	fmt.Println()
 	fmt.Println()
-	
+
 	fmt.Printf("%v \t  %T    \n", a,a)
 	fmt.Printf("%v \t  %T    \n", b,b)
 	fmt.Printf("%v \t  %T    \n", c,c)

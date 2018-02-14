@@ -13,14 +13,14 @@ type contact struct {
 // SwitchOnType works with interfaces
 func SwitchOnType(x interface{}) {
 	switch x.(type) { // this is an assert; asserting, "x is of this type"
-	case int:
-		fmt.Println("int")
-	case string:
-		fmt.Println("string")
-	case contact:
-		fmt.Println("contact")
-	default:
-		fmt.Println("unknown")
+		case int:
+			fmt.Println("int")
+		case string:
+			fmt.Println("string")
+		case contact:
+			fmt.Println("contact")
+		default:
+			fmt.Println("unknown")
 	}
 }
 
@@ -44,18 +44,18 @@ func main() {
 
 	myFriendsName := "Aman"
 	switch {
-	case len(myFriendsName) == 4:
-		fmt.Println("Hi my friend with name of length 4")
-	case myFriendsName == "Trisha":
-		fmt.Println("Hi Trisha")
-	case myFriendsName == "Daphne":
-		fmt.Println("Hi Daphne")
-	case myFriendsName == "Barath", myFriendsName == "Krupesh":
-		fmt.Println("Your name is either Barath or Krupesh")
-	case myFriendsName == "Ranjitha":
-		fmt.Println("Hi Ranjitha")
-	default:
-		fmt.Println("nothing matched; this is the default")
+		case len(myFriendsName) == 4:
+			fmt.Println("Hi my friend with name of length 4")
+		case myFriendsName == "Trisha":
+			fmt.Println("Hi Trisha")
+		case myFriendsName == "Daphne":
+			fmt.Println("Hi Daphne")
+		case myFriendsName == "Barath", myFriendsName == "Krupesh":
+			fmt.Println("Your name is either Barath or Krupesh")
+		case myFriendsName == "Ranjitha":
+			fmt.Println("Hi Ranjitha")
+		default:
+			fmt.Println("nothing matched; this is the default")
 	}
 	/*
 	  expression not needed

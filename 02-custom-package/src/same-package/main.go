@@ -11,4 +11,4 @@ func main() {
 // go run *.go
 // ---- OR ----
 // go build
-//./05_same-package
+//./same-package

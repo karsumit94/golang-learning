@@ -19,7 +19,9 @@ func main() {
 	fmt.Printf("%v / %v = %v \n", b, a, div)
 	fmt.Printf("%v / %v = %f \n", b, c, frac)
 	fmt.Printf("%d %% %v = %v \n", b, c, rem)
-	fmt.Println()
+	fmt.Printf("Type of frac : %T\n", frac)
+	fmt.Printf("Type of a : %T\n", a)
+	fmt.Printf("Type of div : %T\n", div)
 	fmt.Println()
 
 }

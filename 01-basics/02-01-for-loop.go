@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
+	//for loop
+	for a := 0; a < 5; a++ {
+		fmt.Println(a)
+	}
 
 	//nested for loop
 	for i := 0; i < 5; i++ {
@@ -22,8 +26,7 @@ func main() {
 	fmt.Println()
 	fmt.Println()
 
-
-	// for loop with condition 
+	// for loop with condition
 	for i := 1; i < 5; i++ {
 		if i%2 == 1 {
 			fmt.Println(i, "is Odd")

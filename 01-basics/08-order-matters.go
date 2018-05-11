@@ -5,7 +5,8 @@ import "fmt"
 func main() {
 	fmt.Println(x)
 	fmt.Println(y)
-	x := 42
+	x := 41
+	
 }
 
 var y = 42

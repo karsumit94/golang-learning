@@ -73,6 +73,7 @@ func main() {
 	SwitchOnType(t)
 	SwitchOnType(t.greeting)
 	SwitchOnType(t.name)
+	SwitchOnType(7.9)
 }
 
 

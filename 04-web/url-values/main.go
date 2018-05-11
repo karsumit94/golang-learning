@@ -7,9 +7,9 @@ import (
 	"net/url"
 )
 
-type hotdog int
+type urlVal int
 
-func (m hotdog) ServeHTTP(res http.ResponseWriter, req *http.Request) {
+func (m urlVal) ServeHTTP(res http.ResponseWriter, req *http.Request) {
 	err := req.ParseForm()
 	if err != nil {
 		log.Fatalln(err)
@@ -34,6 +34,6 @@ func init() {
 }
 
 func main() {
-	var h hotdog
+	var h urlVal
 	http.ListenAndServe(":8080", h)
 }
